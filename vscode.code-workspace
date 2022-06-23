@@ -15,6 +15,14 @@
 				"program": "${workspaceFolder}/main.py",
 				"args" : ["-index"],
 				"console": "integratedTerminal",
+			},
+			{
+				"name": "Dokumente durchsuchen",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/main.py",
+				"args" : ["-search", "erbarmungslosen Chef"],
+				"console": "integratedTerminal",
 			}
 		]
 	}
